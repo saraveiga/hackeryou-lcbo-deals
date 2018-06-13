@@ -1,0 +1,34 @@
+<!-- // user input food type and get back wine possibility of wine that match with this type of food.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project-3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Abril+Fatface" rel="stylesheet">
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<main class="container">
+		<header class="flex">
+			<h1>LCBO<br>Wine</br>on Sale</h1>
+		</header>
+		<h2 class="shop-wine"><i class="fas fa-xs fa-glass-martini"></i>Shop wine<i class="fas fa-xs fa-glass-martini"></i></h2>
+		<form class="box wine-chooser">
+			<select id="wine_type" name="wine-type">	
+				<option selected="true">Category</option>
+				<option value="red+wine">Red Wine</option>
+				<option value="rose+wine">Rose Wine</option>
+				<option value="sparkling+wine">Sparkling Wine</option>
+				<option value="white+wine">White wine</option>
+			</select>
+		</form>
+       <section>
+	    <div class="wrapper img-wrapper result flex flex-start padding"></div>
+	 	</section>
+	</main>
+</body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+</html>
